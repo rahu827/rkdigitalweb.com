@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,700&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    line-height: 30px;
+}
+
+#navcst {
+    display: flex;
+    gap: 10rem;
+
+}
+
+.navbar-brand {
+    font-family: 'Merriweather';
+
+}
+
+.navbar-brand span {
+    background-color: blue;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 10px 20px;
+}
+
+#navcst span {
+    font-size: 2rem;
+    font-family: 'Merriweather';
+    font-weight: 800;
+}
+
+.navbar {
+    background-color: #fff;
+
+}
+
+#header_cst {
+    width: 100%;
+    height: 800px;
+    left: 0;
+    background: linear-gradient(45deg, #010599, #7118ff);
+    position: relative;
+    border-radius: 0 0 35rem 0;
+    overflow: hidden;
+}
+
+header {
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    background-image: url('../img/marketing-bg6.png');
+    height: 800px;
+    left: 0rem;
+}
+
+header .row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+#header_cst .col_cst {
+    position: absolute;
+    top: 10rem;
+    text-align: center;
+    color: #fff;
+}
+
+#header_cst .col_cst span {
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+
+#header_cst .col_cst h1 {
+    font-family: 'Poppins';
+    text-transform: uppercase;
+}
+
+#header_cst .col_cst p {
+    margin-bottom: 3rem;
+}
+
+.btn_custom {
+    background: blue;
+    padding: 11px 52px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 38px;
+    box-shadow: 0 0 30px -10px blue;
+}
+
+.btn_custom:hover {
+    color: blue;
+    background-color: #fff;
+    border: 1px solid blue;
+}
+
+.wbimage {
+    position: absolute;
+    top: 22rem;
+    width: 558px;
+    right: 26px;
+}
+
+#service span {
+    color: blue;
+    font-family: 'poppins' !important;
+    font-weight: 500;
+}
+
+#service {
+    font-family: 'poppins';
+}
+
+#service .row {
+    display: flex;
+    justify-content: center;
+}
+
+.maindiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    width: 30% !important;
+}
+
+.innerdiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 30px -20px blue;
+    padding: 20px;
+}
+
+.innerdiv h2 {
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+#responsive {
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    border-radius: 0 0 0 31rem;
+    position: relative;
+    color: #fff;
+    font-family: 'poppins';
+}
+
+#responsive h2 {
+    color: #ffff;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 35px;
+    margin-top: 7rem
+}
+
+.responsive_1 {
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(56deg, #5800d3 25%, #490077 100%);
+    border-radius: 0 0 0 31rem;
+}
+
+#responsive img {
+    margin-top: 7rem;
+    transform: rotate(45deg);
+}
+
+#work ul li {
+    line-height: 30px;
+}
+
+#work span {
+    background-color: #5800d3;
+    color: #fff;
+    font-family: 'poppins';
+    padding: 5px 10px;
+    border-radius: 10px 20px;
+}
+
+#work a {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#work a .arrow {
+    opacity: 0;
+    position: absolute;
+    right: 3rem;
+    transition: .5s;
+    color: #000;
+
+}
+
+#work a:hover .arrow {
+    opacity: 1;
+    right: 1rem;
+    transition: 1s;
+}
+
+#owner span {
+    background-color: #5800d3;
+    color: #fff;
+    font-family: 'poppins';
+    padding: 5px 10px;
+    border-radius: 10px 20px;
+}
+
+.about {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.about .ex {
+    margin-right: 5rem;
+    background-color: #fff;
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px -10px blue;
+}
+
+.about .ex p {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'poppins';
+    margin-bottom: 0;
+    color: rgb(255, 0, 255);
+}
+
+.about .ex em {
+    color: blue;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+ul {
+    padding: 0 !important;
+}
+
+.about_contetn ul {
+    padding: 0;
+    list-style: none;
+}
+
+.skill {
+    margin-top: 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill ul {
+    list-style: none;
+}
+
+.divider {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'poppins';
+    box-shadow: 0 10px 29px -10px #000;
+}
+
+.divider h3 {
+    font-size: 1.8rem;
+}
+
+.divider p {
+    position: relative;
+}
+
+.divider p::after {
+    position: absolute;
+    content: '';
+    background-color: #fff;
+    width: 10%;
+    height: 3px;
+    bottom: 0;
+    left: 45%;
+}
+
+#get_in_touch input {
+    border-radius: 20px;
+    padding: 10px 40px;
+}
+
+.social_media {
+    display: flex;
+    gap: 1rem;
+    flex: 2;
+    list-style: none;
+}
+
+.social_media i {
+    background-color: blue;
+    padding: 9px;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 12px;
+}
+
+#footer {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/footer.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.div-footer {
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    color: #fff;
+    left: 0;
+}
+
+.div-footer h2 {
+    font-size: 3.4rem;
+}
+
+.footer_nav ul li {
+    display: inline-block;
+    margin-right: 1rem;
+    line-height: 20px;
+    margin-top: 2rem;
+}
+.footer_nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer_nav{
+    display: flex;
+    justify-content: center;
+}
+#div_footer {
+    background-color: #000;
+}
